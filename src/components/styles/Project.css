@@ -73,14 +73,8 @@
 }
 
 @media (min-width: 720px) { 
-    .project__year {
-        
-    }
     .project__title {
         flex: 4;
-    }
-    .project__madeFor {
-       
     }
     .project__techs {
         display: flex;
@@ -88,26 +82,10 @@
 
         padding-right: 10px;        
     }
-    
-    .project__links {
-
-    }
  }
  @media (min-width: 960px) { 
-    .project__year {
-        
-    }
-    .project__title {
-    }
     .project__madeFor {
         display: flex;   
         flex: 2;    
-    }
-    .project__techs {
-   
-    }
- 
-    .project__links {
-
     }
  }
