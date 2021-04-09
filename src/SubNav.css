@@ -1,0 +1,55 @@
+.subNav {
+    background-color: #27282a;
+    padding: 0.5rem;
+    position: absolute;
+    top: 72px;
+    right: 6px;
+    border-radius: 3px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}  
+
+.subNav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subNav > ul > li {
+    align-items: center;
+    border-radius: 3px;
+    transition: background 500ms;
+}
+
+.subNav > li:hover {
+    background-color: #353638;
+}
+
+.subNav__link {
+    display: flex;
+    border-radius: 3px;
+}
+
+.subNav__link > a {
+    color: #fff;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+.subNav__link > a:active {
+    background-color: #545658;
+    border-radius: 3px;
+}
+
+.subNav__link:hover {
+    background-color: #353638;
+}
+
+.subNav__icon {
+    margin-right: 10px;
+}

@@ -1,0 +1,80 @@
+.projectArchiveScreen__container {
+    padding: 70px 20px 10px 20px;
+    margin-bottom: 10px;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectArchiveScreen__container > h1 {
+    font-size: 26px;
+    padding-bottom: 5px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projectArchiveScreen__labels {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding-left: 10px;
+
+    font-weight: 600;
+    color: gray;
+}
+
+.projectArchiveScreen__year {
+    flex: 1;
+}
+.projectArchiveScreen__title {
+    flex: 3;
+}
+.projectArchiveScreen__madeFor {
+    flex: 1;
+    display: none;
+}
+.projectArchiveScreen__techs {
+    flex: 1;
+    display: none;
+}
+.projectArchiveScreen__links {
+    flex: 1;
+}
+
+@media (min-width: 720px) { 
+    .projectArchiveScreen__year {
+        
+    }
+    .projectArchiveScreen__title {
+        flex: 4;
+    }
+    .projectArchiveScreen__madeFor {
+
+    }
+    .projectArchiveScreen__techs {
+        display: flex;
+        flex: 3;
+    }
+    .projectArchiveScreen__links {
+     
+    }
+ }
+
+ @media (min-width: 960px) { 
+    .projectArchiveScreen__year {
+        
+    }
+    .projectArchiveScreen__title {
+
+    }
+    .projectArchiveScreen__madeFor {
+        display: flex;
+        flex: 2;
+    }
+    .projectArchiveScreen__techs {
+    }
+    .projectArchiveScreen__links {
+     
+    }
+ }

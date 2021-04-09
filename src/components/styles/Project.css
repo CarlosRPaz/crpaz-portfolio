@@ -1,0 +1,113 @@
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.project:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+.project__year {
+    flex: 1;
+    color: #1784c7;   
+    font-weight: 600;
+}
+.project__title {
+    flex: 3;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 10px;
+}
+.project__madeFor {
+    flex: 1;
+    display: none;
+}
+.project__techs {
+    flex: 1;
+    display: none;
+    flex-wrap: wrap;
+}
+.project__techs > div {
+    padding-right: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(26, 27, 31, 0.75);
+}
+
+.project__links {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+.project__githubLogo {
+    filter: invert(1%) sepia(100%) saturate(1352%) hue-rotate(180deg) brightness(119%) contrast(119%);
+
+    height: 22px !important;
+    width: 22px !important;
+
+    margin-right: 8px;
+}
+
+
+.project__externalLink {
+    height: 26px !important;
+    width: 26px !important;
+    
+    color: #000;
+}
+
+.disabledCursor {
+    cursor: default;
+}
+.disabledGHLogo {
+    filter: invert(50%) sepia(0%) saturate(1352%) hue-rotate(180deg) brightness(119%) contrast(119%);
+}
+.disabledExternal {
+    color: rgb(131, 131, 131);
+}
+
+@media (min-width: 720px) { 
+    .project__year {
+        
+    }
+    .project__title {
+        flex: 4;
+    }
+    .project__madeFor {
+       
+    }
+    .project__techs {
+        display: flex;
+        flex: 3;
+
+        padding-right: 10px;        
+    }
+    
+    .project__links {
+
+    }
+ }
+ @media (min-width: 960px) { 
+    .project__year {
+        
+    }
+    .project__title {
+    }
+    .project__madeFor {
+        display: flex;   
+        flex: 2;    
+    }
+    .project__techs {
+   
+    }
+ 
+    .project__links {
+
+    }
+ }
