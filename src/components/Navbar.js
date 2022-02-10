@@ -1,9 +1,9 @@
-import React, { useState, useRef } from 'react'
+import React, {useState, useRef} from 'react'
 import './styles/Navbar.css'
 import MenuIcon from '@material-ui/icons/Menu';
 import LaunchIcon from '@material-ui/icons/Launch';
-import { Link as ScrollLink } from 'react-scroll';
-import { Link } from 'react-router-dom';
+import {Link as ScrollLink} from 'react-scroll';
+import {Link} from 'react-router-dom';
 
 
 import EmailIcon from '@material-ui/icons/Email';
@@ -28,7 +28,7 @@ function Navbar() {
                 <a href="/#expSection" >Experience</a>
                 <a href="/#contactSection" >Contact</a>
                 <a
-                    href="https://www.dropbox.com/s/bexvwzu1kjl3j7e/Resume%20-%20Carlos%20Paz%20-%20Web.pdf?dl=0" className="navbar__resumeButton"
+                    href="https://www.dropbox.com/s/x97bjype9hd2h1k/Resume%20-%20Carlos%20Paz%20-%20Web%202022.pdf?dl=0" className="navbar__resumeButton"
                     target="_blank" rel="noopener noreferrer">
                     <LaunchIcon className="navbar__resumeButton__externalIcon" />
                     Resume
@@ -59,7 +59,7 @@ function Navbar() {
                                         onClick={() => setOpen(!open)}>
                                         <AssignmentIcon className='subNav__icon' />
                                         Projects
-                                </a>
+                                    </a>
                                 </div>
                             </li>
                             <li>
@@ -85,7 +85,7 @@ function Navbar() {
                             <li>
                                 <div className='subNav__link'>
                                     <a
-                                        href="https://www.dropbox.com/s/bexvwzu1kjl3j7e/Resume%20-%20Carlos%20Paz%20-%20Web.pdf?dl=0"
+                                        href="https://www.dropbox.com/s/x97bjype9hd2h1k/Resume%20-%20Carlos%20Paz%20-%20Web%202022.pdf?dl=0"
                                         target="_blank" rel="noopener noreferrer"
                                         onClick={() => setOpen(!open)}
                                         className="subNav__resumeButton">

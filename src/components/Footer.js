@@ -14,7 +14,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/carlos-r-paz/" target="_blank" rel="noopener noreferrer">
                         <img src={liLogo} className='logo' alt="" />
                     </a>
-                    <a href="https://www.linkedin.com/in/carlos-r-paz/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/CarlosRPaz" target="_blank" rel="noopener noreferrer">
                         <img src={ghLogo} className='logo' alt="" />
                     </a>
                 </div>

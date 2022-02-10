@@ -11,6 +11,8 @@ import reduxLogo from '../img/redux.svg'
 import nodejsLogo from '../img/nodejs.png'
 import figmaLogo from '../img/figma.png'
 import stripeLogo from '../img/stripe.png'
+import typescriptLogo from '../img/typescript.png'
+import nextjsLogo from '../img/nextjs.png'
 
 function About() {
 
@@ -28,7 +30,9 @@ function About() {
             </p>
             <div className="about__techs">
                 <div><img src={reactLogo} alt="React Logo" />React</div>
+                <div><img src={nextjsLogo} alt="React Logo" />Next.js</div>
                 <div><img src={jsLogo} alt="JavaScript Logo" />JavaScript</div>
+                <div><img src={typescriptLogo} alt="JavaScript Logo" />TypeScript</div>
                 <div><img src={reduxLogo} alt="Redux Logo" />Redux</div>
                 <div><img src={nodejsLogo} alt="Nodejs Logo" />Node.js</div>
                 <div><img src={htmlLogo} alt="HTML Logo" />HTML</div>

@@ -4,11 +4,11 @@ import LaunchIcon from '@material-ui/icons/Launch';
 
 import githubLogo from '../img/github.svg'
 
-function FeaturedProject({ title, backIMG, desc, techs, codeLink, liveLink,
-    react, api, firebase, stripe, nodejs, html, css, js, sass, figma, webflow }) {
+function FeaturedProject({title, backIMG, desc, techs, codeLink, liveLink,
+    react, api, firebase, stripe, nodejs, html, css, js, sass, figma, webflow, typescript}) {
     return (
         <div className="featuredProject">
-            <div className="featuredProject__img" style={{ backgroundImage: `url(${backIMG})` }}></div>
+            <div className="featuredProject__img" style={{backgroundImage: `url(${backIMG})`}}></div>
             <div className="featuredProject__info">
                 <h4>Featured Project</h4>
                 <h3>{title}</h3>
@@ -25,6 +25,7 @@ function FeaturedProject({ title, backIMG, desc, techs, codeLink, liveLink,
                     {sass && <div>SCSS</div>}
                     {figma && <div>Figma</div>}
                     {webflow && <div>Webflow</div>}
+                    {typescript && <div>Typescript</div>}
                 </div>
                 <div className="featuredProject__infoLinks">
                     <a href={codeLink} target="_blank" rel="noopener noreferrer">

@@ -1,54 +1,54 @@
 .feat {
-    padding: 70px 20px 10px 20px; 
+  padding: 70px 20px 10px 20px;
 
-    max-width: 600px;  
+  max-width: 600px;
 }
 
 .feat__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .feat > h1 {
-    font-size: 26px;
-    padding-bottom: 5px;
+  font-size: 26px;
+  padding-bottom: 5px;
 }
 
 .projectArchiveButton > button {
-    background-color: #1784c7;
-    width: 100%;
-    border-radius: 4px;
-    border: none;
-    color: #f1f5f8;
-    padding: 12px 8px 12px 8px;
+  background-color: #1784c7;
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  color: #f1f5f8;
+  padding: 12px 8px 12px 8px;
 
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
-@media (min-width: 720px) { 
-    .feat {
-        padding: 80px 100px 10px 100px;    
-    }
- }
+@media (min-width: 720px) {
+  .feat {
+    padding: 80px 100px 10px 100px;
+  }
+}
 
- @media (min-width: 960px) { 
-    .feat {
-        padding: 80px;    
-        padding-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
- }
+@media (min-width: 960px) {
+  .feat {
+    padding: 80px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
- @media (min-width: 1200px) { 
-    
-    .feat__buttonContainer {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .projectArchiveButton > button {
-        width: auto;
-        padding: 16px 32px 16px 32px;
-    }
- }
+@media (min-width: 1200px) {
+  .feat__buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .projectArchiveButton > button {
+    width: auto;
+    padding: 16px 32px 16px 32px;
+  }
+}
