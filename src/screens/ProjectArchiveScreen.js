@@ -25,11 +25,12 @@ function ProjectArchiveScreen() {
             year="2022"
             title="Medium Blog Clone"
             madeFor="-"
-            liveLink="https://game7-blog.web.app/"
-            codeLink="https://github.com/CarlosRPaz"
+            liveLink="https://next-typescript-blog-wine.vercel.app/"
+            codeLink="https://github.com/CarlosRPaz/next-typescript-blog"
             react
             nextjs
             typescript
+            tailwindcss
             nodejs
             sanity
             vercel
@@ -39,7 +40,7 @@ function ProjectArchiveScreen() {
             title="Game7 Sports Blog"
             madeFor="-"
             liveLink="https://game7-blog.web.app/"
-            codeLink="https://github.com/CarlosRPaz"
+            codeLink="https://github.com/CarlosRPaz/game7"
             react
             nodejs
             redux
